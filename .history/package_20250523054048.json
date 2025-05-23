@@ -1,0 +1,42 @@
+{
+  "name": "pinkppuccin",
+  "displayName": "pinkppuccin",
+  "description": "Pinkish Catppuccin inspired theme",
+  "version": "0.0.1",
+  "publisher": "mamir",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/musaamir/pinkppuccin"
+  },
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "pink",
+    "catppuccin",
+    "color-theme"
+  ],
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.100.0",
+    "vsce": "^2.15.0"
+  },
+  "contributes": {
+    "themes": [
+      { 
+        "label": "Pinkppuccin",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Pinkppuccin-color-theme.json"
+      }
+    ]
+  }
+}
