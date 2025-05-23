@@ -10,7 +10,7 @@
     "url": "https://github.com/musaamir/pinkppuccin"
   },
   "engines": {
-    "vscode": "^1.100.0"
+    "vscode": "*"
   },
   "categories": [
     "Themes"
@@ -27,7 +27,7 @@
     "publish": "vsce publish"
   },
   "devDependencies": {
-    "@types/vscode": "^1.100.0",
+    "@types/vscode": "*",
     "vsce": "^2.15.0"
   },
   "contributes": {
